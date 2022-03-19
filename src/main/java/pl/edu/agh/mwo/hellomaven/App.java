@@ -1,7 +1,7 @@
 package pl.edu.agh.mwo.hellomaven;
 
 /**
- * Simple main application
+ * Simple main application.
  */
 public class App {
 
@@ -12,6 +12,6 @@ public class App {
     public int getRandomNumber() {
         // chosen by fair dice roll.
         // guaranteed to be random
-        return 4;
+        return getRandomNumber();
     }
 }
